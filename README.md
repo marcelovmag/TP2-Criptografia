@@ -22,8 +22,8 @@ Como o Chrome gera um ID único para a extensão ao ser carregada em uma nova m�
 
 ### Passo 2: Configurar o arquivo de manifesto do Native Messaging
 1. Abra o arquivo `nm_manifest.json` em um editor de texto.
-2. Na propriedade `"path"`, insira o **caminho absoluto** atualizado para o arquivo `host_nativo.exe` na sua máquina. (Lembre-se de usar barras normais `/` ou barras invertidas duplas `\\`).
-3. Na propriedade `"allowed_origins"`, substitua o ID existente pelo ID que você acabou de copiar no Passo 1. O formato deve ficar assim: `"chrome-extension://SEU_NOVO_ID_AQUI/"`.
+2. Na propriedade `"path"`, insira o **caminho absoluto** atualizado para o arquivo `host_nativo.exe` na sua máquina.
+3. Na propriedade `"allowed_origins"`, substitua o ID existente pelo ID que você acabou de copiar no Passo 1. O formato deve ficar assim: `"chrome-extension://SEU_ID/"`.
 4. Salve o arquivo.
 
 ### Passo 3: Registrar o Host Nativo no Windows 
@@ -33,23 +33,3 @@ Como o Chrome gera um ID único para a extensão ao ser carregada em uma nova m�
 
 ---
 
-## Parte 2: Instruções de Uso 
-
-### (a) Abrir a interface 
-1. No Google Chrome, clique no ícone de "quebra-cabeça" (Extensões) no canto superior direito da barra de endereços.
-2. Clique em **Gerenciador de Certificados TP2** para abrir o *popup* da extensão.
-
-### (b) Visualizar a lista de certificados 
-1. Ao abrir, a extensão se comunicará automaticamente com o host nativo em C++.
-2. A interface exibirá uma tabela contendo todos os certificados disponíveis no repositório pessoal do usuário (`CurrentUser\My`) do Windows.
-3. Você poderá visualizar os metadados de cada certificado, como Assunto (Subject), Emissor (Issuer), Validade, Thumbprint e a indicação se possui chave privada associada.
-
-### (c) Selecionar certificados
-1. Utilize os *checkboxes* localizados na primeira coluna da tabela para marcar individualmente os certificados desejados.
-2. Para marcar ou desmarcar todos de uma vez, utilize o *checkbox* na linha de cabeçalho da tabela ("Selecionar Todos").
-
-### (d) Salvar e recuperar a seleção
-1. Após escolher os certificados, clique no botão **Salvar Seleção** localizado na parte inferior da interface.
-2. O botão exibirá a mensagem "Salvo com Sucesso!" indicando que os *thumbprints* foram armazenados localmente (`chrome.storage.local`).
-3. Para testar a recuperação da seleção, feche o *popup* clicando em qualquer lugar fora dele.
-4. Abra o *popup* novamente. O sistema irá recarregar a lista do Windows e marcará automaticamente os certificados que haviam sido salvos anteriormente.
