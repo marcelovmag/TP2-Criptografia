@@ -9,7 +9,7 @@ Este documento contém os passos necessários para configurar o host nativo, car
 
 ---
 
-## Parte 1: Instalação do Host Nativo e Extensão
+## Instalação do Host Nativo e Extensão
 
 Como o Chrome gera um ID único para a extensão ao ser carregada em uma nova máquina, a instalação deve seguir esta ordem específica para que a comunicação Native Messaging funcione corretamente.
 
