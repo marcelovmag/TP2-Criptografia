@@ -1,8 +1,8 @@
 # Manual de Instalação e Execução - TP2
 
-**Disciplina:** BCC423 Criptografia e Segurança de Redes 
-**Professor:** Dr. Carlos Frederico Marcelo da Cunha Cavalacanti 
-**Sistema Operacional:** Windows 10/11 
+**Disciplina:** BCC423 Criptografia e Segurança de Redes
+**Professor:** Dr. Carlos Frederico Marcelo da Cunha Cavalacanti
+**Sistema Operacional:** Windows 10/11
 **Navegador:** Google Chrome 
 
 Este documento contém os passos necessários para configurar o host nativo, carregar a extensão no navegador e utilizar a interface de seleção de certificados.
