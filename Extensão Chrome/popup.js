@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
         chrome.storage.local.set({ selectedCerts: selectedValues }, function() {
             const originalText = btnSave.textContent;
             btnSave.textContent = "Salvo com Sucesso!";
-            btnSave.style.backgroundColor = "#107c10"; // Verde
+            btnSave.style.backgroundColor = "#0d610d"; // Verde
             
             setTimeout(() => {
                 btnSave.textContent = originalText;

@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <title>Gerenciador de Certificados</title>
     <style>
-        body { width: 780px; font-family: 'Segoe UI', sans-serif; padding: 10px; font-size: 13px; }
-        h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-top: 0; }
+        body { width: 780px; font-family: 'Segoe UI', sans-serif; padding: 10px; font-size: 13px; background-color: #1e1e1e; color: #e0e0e0;}
+        h2 { border-bottom: 1px solid #444; padding-bottom: 5px; margin-top: 0; }
         
         table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; font-weight: bold; }
+        th, td { border: 1px solid #444; padding: 8px; text-align: left; }
+        th { background-color: #2d2d2d; font-weight: bold; color: #ffffff; }
         
         /* Estilos para colunas específicas */
         .col-check { width: 30px; text-align: center; }
-        .col-thumb { font-family: monospace; font-size: 11px; color: #555; }
-        .has-key { color: green; font-weight: bold; }
-        .no-key { color: #ccc; }
+        .col-thumb { font-family: monospace; font-size: 11px; color: #aaaaaa; }
+        .has-key { color: #4ade80; font-weight: bold; }
+        .no-key { color: #666666; }
 
         .footer { margin-top: 15px; display: flex; justify-content: space-between; align-items: center; }
-        button { padding: 10px 20px; background-color: #0078d4; color: white; border: none; cursor: pointer; border-radius: 4px; }
-        button:hover { background-color: #005a9e; }
-        #status { font-weight: bold; color: #333; }
+        button { padding: 10px 20px; background-color: #006e6a; color: white; border: none; cursor: pointer; border-radius: 4px; }
+        button:hover { background-color: #004845; }
+        #status { font-weight: bold; color: #e0e0e0; }
     </style>
 </head>
 <body>
@@ -31,7 +31,12 @@
     <table id="certTable" style="display:none;">
         <thead>
             <tr>
-                <th class="col-check"><input type="checkbox" id="selectAll"></th>
+                <th class="col-check" style="width: 80px;">
+                    <label style="cursor: pointer; display: flex; align-items: center; gap: 5px;">
+                        <input type="checkbox" id="selectAll">
+                        <span style="font-size: 0.75rem; color: #aaa;">Sel. tudo</span>
+                    </label>
+                </th>
                 <th>Assunto (Subject)</th>
                 <th>Emissor (Issuer)</th>
                 <th>Validade</th>
