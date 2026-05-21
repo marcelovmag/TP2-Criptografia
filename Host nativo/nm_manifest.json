@@ -1,0 +1,9 @@
+{
+  "name": "com.tp.certlist",
+  "description": "Host nativo para leitura de certificados",
+  "path": "C:/UFOP/Cripto/TP2/marcelo_magalhaes_tp2/Host nativo/host_nativo.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ppgehednnddemgbdokgbdjdmmikfanim/"
+  ]
+}

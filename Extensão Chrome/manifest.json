@@ -1,0 +1,13 @@
+{
+  "name": "Gerenciador de Certificados TP2",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Lista certificados do Windows via Native Messaging.",
+  "permissions": [
+    "nativeMessaging",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

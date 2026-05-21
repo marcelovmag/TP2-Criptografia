@@ -1,0 +1,46 @@
+=== INICIO DO PROCESSO ===
+Modo binario configurado.
+Aguardando leitura de tamanho (4 bytes)...
+Tamanho da mensagem recebida: 20
+Mensagem recebida: {"text":"GET_CERTS"}
+Tentando abrir CertStore...
+CertStore aberta com sucesso.
+--- NOVA EXECUCAO ---
+Mensagem recebida do Chrome.
+Abrindo Store...
+Store aberta. Iniciando loop...
+Processando: 500d533d-a98b-4070-abd1-f3e0e00ccaa2
+Fim da lista de certificados.
+Loop finalizado com sucesso.
+Enviando resposta (70 bytes).
+--- FIM ---
+--- NOVA EXECUCAO ---
+Mensagem recebida do Chrome.
+Abrindo Store...
+Store aberta. Iniciando loop...
+Processando: 500d533d-a98b-4070-abd1-f3e0e00ccaa2
+Fim da lista de certificados.
+Loop finalizado com sucesso.
+Enviando resposta (70 bytes).
+--- FIM ---
+--- NOVA EXECUCAO ---
+Mensagem recebida do Chrome.
+Abrindo Store...
+Store aberta. Iniciando loop...
+Processando: 500d533d-a98b-4070-abd1-f3e0e00ccaa2
+Fim da lista de certificados.
+Loop finalizado com sucesso.
+Enviando resposta (70 bytes).
+--- FIM ---
+--- NOVA EXECUCAO ---
+Mensagem recebida do Chrome.
+Abrindo Store...
+Store aberta. Iniciando loop...
+Processando: 500d533d-a98b-4070-abd1-f3e0e00ccaa2
+--- NOVA EXECUCAO ---
+Mensagem recebida do Chrome.
+Abrindo Store...
+Store aberta. Iniciando loop...
+Processando: 500d533d-a98b-4070-abd1-f3e0e00ccaa2
+--- INICIO SEGURO ---
+--- INICIO SEGURO ---
